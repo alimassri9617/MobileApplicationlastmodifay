@@ -1,0 +1,4 @@
+// Placeholder notification sound file
+// In a real implementation, you would add an actual sound file here
+export default null;
+

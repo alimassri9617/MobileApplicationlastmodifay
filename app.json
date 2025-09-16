@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "UniAssist Mobile",
+    "slug": "mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "extra": {
+      "API_BASE_URL": "https://mobilebackend-1-41zg.onrender.com/api",
+      "SOCKET_URL": "https://mobilebackend-1-41zg.onrender.com",
+      "eas": {
+        "projectId": "ed5b6d0d-6708-4226-b1e3-662a08bfa1f1"
+      }
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.uniassist.mobile",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.uniassist.mobile"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-notifications",
+      "expo-secure-store"
+    ],
+    "owner": "alimassri"
+  }
+}
